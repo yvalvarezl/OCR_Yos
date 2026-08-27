@@ -5,9 +5,9 @@ import pytesseract
 from PIL import Image
 
 
-st.title("Mi OCR")
+st.title("Mi OCR 📸")
 
-img_file_buffer = st.camera_input("Toma una foto")
+img_file_buffer = st.camera_input("Toma una foto 🌼")
 
 with st.sidebar:
       filtro = st.radio("Aplicar Filtro",('Con Filtro', 'Sin Filtro'))
